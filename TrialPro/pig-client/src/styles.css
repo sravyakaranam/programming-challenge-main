@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    border: 1px solid transparent; /* Hide borders initially */
+    text-align: left;
+    padding: 12px;
+  }
+  
+  th {
+    background-color: #FFC947; /* Yellow background for table headers */
+    color: #333; /* Dark text color */
+    border-color: #FFC947; /* Border color for table headers */
+  }
+  
+  td {
+    background-color: #FFF3E1; /* Light orange background for table cells */
+    color: #666; /* Medium gray text color */
+  }
+  
+  /* Alternating row colors */
+  tr:nth-child(even) {
+    background-color: #FFEB3B; /* Yellow background for even rows */
+  }
+
+  #heading{
+    text-align: center;
+  }
+
+  #population{
+    text-align: center;
+  }
+  #movement{
+    text-align: center;
+  }

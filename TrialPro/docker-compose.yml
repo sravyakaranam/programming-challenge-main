@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    command: python Trial.py
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+
+  client:
+    build: ./pig-client
+    ports:
+      - "3000:3000"
+
+  db:
+    platform: linux/amd64
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: Sravya2000
+      MYSQL_DATABASE: farm_movement
+    ports:
+      - "3306:3306"
