@@ -1,4 +1,4 @@
-Steps followed to build task:
+Steps followed to build task ( MAC OS ):
 
 ---
 
@@ -65,8 +65,23 @@ To set up the MySQL database for tracking population and movements, follow these
 
 ```
     pip install requirements.txt
-    source venv/bin/activate                                                   //to activate the virtual environment
-    
+    source venv/bin/activate                                         //to activate the virtual environment # On Windows: venv\Scripts\activate
+    python Trial.py
 
 ```
-#### 2. Setting up the REST API using FLASK(python):
+#### 2. Setting up the WEB CLIENT , using Typescript and react:
+
+Open Different Terminal Tab and follow the steps: 
+
+```
+    cd pig-client
+    sudo npx create-react-app . --template typescript
+    sudo npm install axios
+    sudo npm start
+
+```
+possible errors you may encounter: permission denied error
+```
+    solution: chmod -R 755 /path till TrialPro/TrialPro/pig-client
+
+```
