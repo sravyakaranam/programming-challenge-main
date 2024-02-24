@@ -2,7 +2,7 @@ Steps followed to build task:
 
 ---
 
-## STEP 1:  Setting up the MySQL Database:
+### Setting up the MySQL Database:
 To set up the MySQL database for tracking population and movements, follow these steps:
 
 1. **Create Database and Tables:**
@@ -55,4 +55,18 @@ To set up the MySQL database for tracking population and movements, follow these
     IGNORE 1 ROWS; -- Ignore header row if present
    ```
 
-## STEP 2:  Setting up the REST API using FLASK(python):
+##  Executing the project :
+```
+    git clone
+    cd TrialPro
+    
+```
+#### 1. Setting up the REST API using FLASK(python):
+
+```
+    pip install requirements.txt
+    source venv/bin/activate                                                   //to activate the virtual environment
+    
+
+```
+#### 2. Setting up the REST API using FLASK(python):
