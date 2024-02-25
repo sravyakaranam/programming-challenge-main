@@ -99,3 +99,16 @@ i.e, `python Trial.py`
 
 
 ##  OUTPUTS after execution:
+
+### :Server API : 
+<p align="center"><img width="700" src="./assets/serverAPI.png"></p>
+
+### :Client : 
+<p align="center"><img width="700" src="./assets/client.png"></p>
+
+### :Server output : 
+<p align="center"><img width="700" src="./assets/server-output.png"></p>
+
+### :Client Output : 
+<p align="center"><img width="700" src="./assets/client-output1.png"></p>
+<p align="center"><img width="700" src="./assets/client-output2.png"></p>
