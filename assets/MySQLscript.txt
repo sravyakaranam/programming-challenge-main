@@ -1,0 +1,39 @@
+Population table: 
+
+INSERT INTO population (premiseid, total_animal)
+VALUES
+  ('376DQUF', 1000),
+  ('088WKFT', 1000),
+  ('225ZGAJ', 1000),
+  ('180UCBY', 1000),
+  ('582PHBR', 1000),
+  ('360FDCZ', 1000),
+  ('733DTME', 1000),
+  ('715ELOH', 1000),
+  ('325UDIW', 1000),
+  ('671HMJV', 1000),
+  ('778EYUX', 1000),
+  ('464KBIF', 1000),
+  ('477EDVX', 1000),
+  ('611ULSK', 1000),
+  ('027RDXY', 1000),
+  ('220FAPG', 1000),
+  ('554DGRT', 1000),
+  ('853OBOV', 1000),
+  ('453YIAE', 1000),
+  ('730AOYL', 1000);
+
+movements table:
+
+INSERT INTO movements(new_originpremid, new_destinationpremid, new_numitemsmoved) 
+VALUES 
+    ('376DQUF', '778EYUX', 1000),
+    ('088WKFT', '464KBIF', 1000),
+    ('225ZGAJ', '477EDVX', 1000),
+    ('180UCBY', '611ULSK', 1000),
+    ('582PHBR', '027RDXY', 1000),
+    ('360FDCZ', '220FAPG', 1000),
+    ('733DTME', '554DGRT', 1000),
+    ('715ELOH', '853OBOV', 1000),
+    ('325UDIW', '453YIAE', 1000),
+    ('671HMJV', '730AOYL', 1000);
