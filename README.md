@@ -58,6 +58,7 @@ To set up the MySQL database for tracking population and movements, follow these
 ##  Executing the project :
 ```
     git clone
+    cd programming-challenge-main
     cd TrialPro
     
 ```
