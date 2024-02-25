@@ -38,7 +38,7 @@ To set up the MySQL database for tracking population and movements, follow these
 2. **Populate Database**
 
    ```
-   ( number of columns of population.csv, movements.csv must match number of columns in tables created )
+   ( number of columns of population.csv, and movements.csv must match number of columns in tables created )
    
    -- Load data into the population table
     LOAD DATA INFILE 'population.csv'
