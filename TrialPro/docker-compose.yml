@@ -20,5 +20,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: Sravya2000
       MYSQL_DATABASE: farm_movement
+      MYSQL_BIND_ADDRESS: 0.0.0.0
+    command: --innodb_use_native_aio=0
     ports:
       - "3306:3306"
