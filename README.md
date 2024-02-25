@@ -54,6 +54,7 @@ To set up the MySQL database for tracking population and movements, follow these
     LINES TERMINATED BY '\n'
     IGNORE 1 ROWS; -- Ignore header row if present
    ```
+   If the above command doesn't work, to populate the database [Click Here]() 
 
 ##  Executing the project :
 ```
