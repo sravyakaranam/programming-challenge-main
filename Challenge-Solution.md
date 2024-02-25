@@ -69,6 +69,8 @@ To set up the MySQL database for tracking population and movements, follow these
     python Trial.py
 
 ```
+ open `http://127.0.0.1:8080/api/farms` to see the data fetched from Database
+    
 #### 2. Setting up the WEB CLIENT , using Typescript and react:
 
 Open Different Terminal Tab and follow the steps: 
@@ -80,8 +82,14 @@ Open Different Terminal Tab and follow the steps:
     sudo npm start
 
 ```
+open `http://localhost:3000/` to see the output of pig-client
+
 possible errors you may encounter: permission denied error
 ```
     solution: chmod -R 755 /path till TrialPro/TrialPro/pig-client
 
+```
+#### 3. Docker instructions:
+```
+    docker-compose up --build
 ```
