@@ -97,8 +97,11 @@ solution: `chmod -R 755 /path till TrialPro/TrialPro/pig-client`
 If there is any error in displaying the data after docker compose, please run the server script seperately in a terminal tab as mentioned in step 1. 
 i.e, `python Trial.py`
 
+## Execution Demo:
 
-##  OUTPUTS after execution:
+<p align="center"><img width="700" src="./assets/projectdemo.gif"></p>
+
+##  OUTPUT Screenshots after execution:
 
 ### :Server API : 
 <p align="center"><img width="700" src="./assets/serverAPI.png"></p>
