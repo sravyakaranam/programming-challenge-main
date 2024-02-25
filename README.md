@@ -94,3 +94,8 @@ solution: `chmod -R 755 /path till TrialPro/TrialPro/pig-client`
 ```
     docker-compose up --build
 ```
+If there is any error in displaying the data after docker compose, please run the server script seperately in a terminal tab as mentioned in step 1. 
+i.e, `python Trial.py`
+
+
+##  OUTPUTS after execution:
