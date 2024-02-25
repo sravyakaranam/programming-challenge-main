@@ -85,10 +85,10 @@ Open Different Terminal Tab and follow the steps:
 open `http://localhost:3000/` to see the output of pig-client
 
 possible errors you may encounter: permission denied error
-```
-    solution: chmod -R 755 /path till TrialPro/TrialPro/pig-client
 
-```
+solution: `chmod -R 755 /path till TrialPro/TrialPro/pig-client`
+
+
 #### 3. Docker instructions:
 ```
     docker-compose up --build
